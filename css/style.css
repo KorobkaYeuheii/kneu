@@ -118,7 +118,7 @@ footer>p{
 }
 @media screen (min-width: 320px) and (max-width: 768px){
 	.menu{
-		width: 50px;
+		width: 5gi0px;
 	}
 	.img-box{
 		flex-direction: column;
