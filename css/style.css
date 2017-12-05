@@ -2,12 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-@media screen (min-width: 320px) and (max-width: 768px){
-	.img-box{
-		flex-direction: column;
-		flex-wrap: nowrap;
-	}
-}
+
 a{
 	text-decoration: none;
 	text-transform: uppercase;
@@ -51,8 +46,15 @@ header>p{
 li{
 	list-style-type: none;
 }
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 500px;
+}
 .menu>li{
-	display: inline;
+
 	text-transform: uppercase;
 	color: #fff;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -113,4 +115,14 @@ footer>p{
 	font-size: 16px;
 	color: #fff;
 	text-align: center;
+}
+@media screen (min-width: 320px) and (max-width: 768px){
+	.menu{
+		width: 50px;
+	}
+	.img-box{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	
 }
